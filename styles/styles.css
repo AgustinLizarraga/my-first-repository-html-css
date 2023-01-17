@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+
+body{
+    background-image:url(../images/fondo\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+header{
+    height: 250px;
+      color: rgba(255, 255, 255, 0.863);
+      font-size: 12px;
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      }
+      
+.tittle-header{
+    font-size: 80px;
+}
+
+.access{
+    font-size: 45px;
+    margin-right: 25px;
+    
+}
+
+a{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+    justify-content: space-around;
+}
+
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container-flex-up{
+    display: flex;
+    justify-content:space-around;
+    }
+.container-flex-down{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.container-group-up{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.863);
+    width: 310px;
+    height: 310px;
+}
+
+.container-group-down{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.863);
+    width: 310px;
+    height: 310px;
+}
+
+.img-logo{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 3px 3px white;
+    margin-left: 30px;
+}
+
+footer{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+a:hover{
+    cursor:pointer;
+}
+.Qatar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(171, 42, 62);
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Ecuador:hover{
+    background-color: rgb(247, 218, 58);
+    color: blue;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Senegal:hover{
+    background-color: green;
+    color: yellow;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.PaisesBajos:hover{
+    background-color: rgb(34, 34, 133);
+    color: red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Inglaterra:hover{
+    background-color: white;
+    color: red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Irán:hover{
+    background-color: green;
+    color: red;
+    cursor:pointer;
+    border-radius: 15px;   
+}
+.EstadosUnidos:hover{
+    background-color: blue;
+    color: red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Gales:hover{
+    background-color: rgb(211, 11, 11);
+    color:rgb(13, 78, 10);
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Argentina:hover{
+    background-color: white;
+    color: rgb(105, 197, 228);
+    cursor:pointer;
+    border-radius: 15px;
+}
+.ArabiaSaudita:hover{
+    background-color: green;
+    color:white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.México:hover{
+    background-color: white;
+    color:green;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Polonia:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Francia:hover{
+    background-color:blue;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Australia:hover{
+    background-color:rgb(17, 2, 85);
+    color: rgb(235, 41, 41);
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Dinamarca:hover{
+    background-color:Red;
+    color:white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Túnez:hover{
+    background-color: white;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.España:hover{
+    background-color: yellow;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.CostaRica:hover{
+    background-color: blue;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Alemania:hover{
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Japón:hover{
+    background-color: white;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Bélgica:hover{
+    background-color: yellow;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Canadá:hover{
+    background-color:white;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Marruecos:hover{
+    background-color:red;
+    color:black;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Croacia:hover{
+    background-color: blue;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Brasil:hover{
+    background-color:yellow;
+    color:green;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Serbia:hover{
+    background-color:white;
+    color:blue;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Suiza:hover{
+    background-color:red;
+    color:white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Camerún:hover{
+    background-color:green;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Portugal:hover{
+    background-color:red;
+    color:green;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Ghana:hover{
+    background-color: yellow;
+    color:red;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.Uruguay:hover{
+    background-color:rgb(85, 197, 235);
+    color:white;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.CoreadelSur:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+    border-radius: 15px;
+}
+
+.llaves {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.octavos {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.cuartos {
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: auto;
+}
+
+.semifinal{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.final {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.campeon {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.eliminatorias {
+    color: white;
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+}
+
+.primer-llave {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.segunda-llave {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.tercera-llave {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.cuarta-llave {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.quinta-llave {
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.campeon {
+    color: white;
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+}
+
+.campeon-argentina {
+    color: rgb(114, 94, 3);
+    font-size: 150px;
+    font-style: italic;
+    text-align: center;   
+}
+
+.bandera-campeon {
+    width: 130px;
+    border-radius: 25%;
+}
